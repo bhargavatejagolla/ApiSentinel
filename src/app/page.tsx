@@ -340,7 +340,7 @@ export default function Home() {
         <div className="fixed top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-4" style={{ backdropFilter: 'blur(20px)', background: 'rgba(3,3,8,0.7)', borderBottom: '1px solid rgba(168,85,247,0.15)' }}>
           {/* Left: Logo */}
           <div className="flex items-center space-x-3">
-            <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#a855f7', boxShadow: '0 0 12px 4px rgba(168,85,247,0.8)', animation: 'ping 2s ease-in-out infinite' }} />
+            <img src="/logo.png" alt="API Sentinel Logo" className="w-8 h-8 object-contain drop-shadow-[0_0_12px_rgba(168,85,247,0.6)]" />
             <span className="font-mono text-[11px] font-bold tracking-[0.3em] uppercase text-neutral-300">API SENTINEL</span>
           </div>
           {/* Center: Live status chips */}
@@ -581,6 +581,7 @@ export default function Home() {
           
           {/* Logo Brand featuring TrueFocus */}
           <div className="flex items-center space-x-3">
+            <img src="/logo.png" alt="API Sentinel Logo" className="w-8 h-8 object-contain drop-shadow-[0_0_12px_rgba(20,184,166,0.6)] animate-pulse" />
             <GlitchText
               speed={1}
               enableShadows={true}
