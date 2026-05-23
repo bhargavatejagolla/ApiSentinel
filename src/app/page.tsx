@@ -381,26 +381,21 @@ export default function Home() {
                 shuffleDirection="right"
                 duration={0.4}
                 animationMode="evenodd"
-                shuffleTimes={1}
+                shuffleTimes={2}
                 ease="power3.out"
                 stagger={0.03}
-                threshold={0.05}
+                threshold={0.1}
                 triggerOnce={true}
                 triggerOnHover={true}
                 respectReducedMotion={true}
                 loop={false}
                 loopDelay={0}
+                colorFrom="#00fff7"
+                colorTo="#ffffff"
+                onShuffleComplete={() => {}}
                 style={{
-                  fontSize: 'clamp(2.8rem, 8vw, 6.5rem)',
-                  fontFamily: "'Inter', 'DM Sans', sans-serif",
-                  fontWeight: '900',
-                  letterSpacing: '-0.03em',
-                  background: 'linear-gradient(135deg, #e879f9 0%, #a855f7 40%, #6366f1 70%, #14b8a6 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  backgroundClip: 'text',
-                  textShadow: 'none',
-                  filter: 'drop-shadow(0 0 40px rgba(168,85,247,0.4))',
+                  fontWeight: 900,
+                  letterSpacing: "-0.04em",
                 }}
               />
             </div>
