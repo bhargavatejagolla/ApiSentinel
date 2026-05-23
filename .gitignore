@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.api_sentinel_store.json
+.chaos_config.json
+*.stackdump
